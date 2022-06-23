@@ -1,0 +1,820 @@
+/***********************************/
+/*            General              */
+/***********************************/
+
+body {
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+.navbar .nav-item{
+    color: black;
+}
+.nav-btn a{
+    color: white;
+}
+
+
+/***********************************/
+/*            main-content         */
+/***********************************/
+
+
+.main-content{
+    margin-top: 90px;
+    background-color: white;
+    height: auto;
+    display: inline-block;
+}
+.left-side{
+    float: left;
+    width: 43%;
+    height: auto;
+    margin-left: 80px;
+    
+}
+
+
+
+/************** Titre *********************/
+
+
+.titre{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.valider{
+    margin-left: 10px;
+    width: 30px;
+    height: 25px;
+    color: #43CEA2;
+}
+
+
+/************** Bare info *********************/
+
+.bare-info{
+    margin-bottom: 20px;
+}
+
+.taille-terrain{
+    font-size: 10px;
+    color: #666;
+    margin-left: 10px;
+}
+.terrain-info{
+    float: left;
+}
+.nom{
+    margin-bottom: 10px;
+}
+.prix{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+.date{
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+
+.RDV{
+    float: right;
+    margin-top: 20px;
+}
+.bouton-rdv{
+    background: linear-gradient(130deg, rgba(81,206,169,1) 0%, rgba(25,93,157,1) 100%);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    color: white;
+    display: inline;
+}
+
+
+
+/*************** Bare separation ********************/
+
+
+
+.Bare{
+    width: 100%;
+    margin-top: 10px;
+}
+
+
+
+/******************* Critère ****************/
+
+
+
+
+
+.critère-parti-gauche{
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.dessous{
+    margin-top: 55px;
+}
+
+
+.info-critère{
+    margin-left: 50px;
+}
+.titre-info-critère{
+    font-size: 13px;
+    color: #666;
+    padding-top: 10px;
+    margin-bottom: 3px;
+}
+.description-info-critère{
+    margin-top: 3px;
+}
+
+
+.box-paper{
+    float: left;
+    color: #2C65A8;
+    background-color: #B8B3F9;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10px;
+    border-radius: 90px;
+    margin-top: 0px;
+}
+.icone-critere{
+    width: 40px;
+    height: 45px;
+}
+
+
+
+.critère-parti-droite{
+    float: right;
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+
+
+
+/******************* Description ****************/
+
+
+.description{
+    width: 100%;
+}
+br{
+    margin: 5px;
+}
+
+
+/******************* Profile ****************/
+.partie-droite-profil{
+    width: 45%;
+    float: left;
+}
+.utilisateur{
+    margin-top: 20px;
+    width: 100%;
+    height: 60px;
+}
+.Profil{
+    width: 100%;
+}
+.utilisateur img{
+    width: 60px;
+    border-radius: 60px;
+    margin-left: 3px;
+    display: inline;
+    float: left;
+    margin-right: 10px;
+}
+.nom-utilisateur{
+    display: inline;
+    text-align: center;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+}
+.avis{
+    display: inline;
+    margin-top: 5px;
+    color: #F2A415;
+    float: left;
+
+}
+.info-vendeur{
+    display: block;
+}
+
+
+/******************* Profile partie gauche ****************/
+
+.partie-gauche-profil{
+    float: right;
+    width: 55%;
+}
+.voir-profil{
+
+    margin-top: 20px;
+    text-align: right;
+    width: 100%;
+    height: 100px;
+}
+.bouton-voir-profil{
+    color: #43CEA2;
+    margin-right: 10px;
+    float: left;
+    margin-top: 10px;
+}
+.bouton-contact{
+    background: linear-gradient(130deg, rgba(81,206,169,1) 0%, rgba(25,93,157,1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 200px;
+    
+}
+.message{
+    color: rgba(81,206,169,1);
+    margin-right: 10px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    float: left;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+.btn-outline{
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 190px;
+    height: 40px;
+    font-weight: 600;
+    font-size: 13px;
+    border: double 2px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(white, white), linear-gradient(130deg, rgba(81,206,169,1) 0%, rgba(25,93,157,1) 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+.text{
+    float: right;
+    margin-right: 20px;
+}
+
+.Certification{
+    text-align: right;
+}
+.membre-certifié{
+    color: #43CEA2;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+/*******************  partie droit  ****************/
+
+
+
+
+.right-side{
+    float: right;
+    width: 43%;
+    height: auto;
+    margin-right: 80px;
+    margin-top: 50px;
+}
+
+
+.Like{
+    text-align: right;
+}
+.fa-heart{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    background: linear-gradient(130deg, #36a8a0 0%, #34a5a0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: #36a8a0;
+}
+.fa-share-alt{
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    background: linear-gradient(130deg, #36a8a0 0%, #34a5a0 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px;
+    text-align: center;
+    border-style: solid;
+    border-radius: 20px;
+    margin-right: 15px;
+    border-color: #36a8a0;
+}
+
+
+
+
+
+/******************* Images ****************/
+
+.Photo-title{
+    display: none;
+}
+
+.big-images{
+    width: 100%;
+    margin-top: 20px;
+}
+.big-images img{
+    width: 100%;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    height: 400px;
+}
+.small-images{
+    text-align: center;
+}
+.small-images img{
+    width: 30%;
+    height: 100px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+
+
+
+
+/******************* Annonce ****************/
+
+
+
+.titre-autres-annonces{
+    font-size: 20px;
+}
+.autres-annonces{
+    margin-top: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: auto;
+}
+.box-autres-annonces{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.annonces{
+    width: 23%;
+    display: inline-block;
+    margin: 5px;
+    text-align: left;
+}
+.annonces a{
+    color: black;
+}
+.annonces img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+
+/***********************************/
+/*            Responsive           */
+/***********************************/
+
+
+@media screen and (max-width: 1233px)  {
+
+    .left-side{
+        float: left;
+        width: 40%;
+        height: auto;
+        margin-left: 80px;
+        
+    }
+
+    .titre{
+        font-size: 37px;
+        margin-bottom: 20px;
+    }
+
+
+    .btn-outline{
+        float: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 40px;
+        font-weight: 600;
+        font-size: 11px;
+        border: double 2px transparent;
+        border-radius: 80px;
+        background-image: linear-gradient(white, white), linear-gradient(130deg, rgba(81,206,169,1) 0%, rgba(25,93,157,1) 100%);
+        background-origin: border-box;
+        background-clip: content-box, border-box;
+    }
+    .message{
+        color: rgba(81,206,169,1);
+        margin-right: 5px;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        float: left;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .bouton-voir-profil{
+        color: #43CEA2;
+        margin-right: 1px;
+        float: left;
+        margin-top: 10px;
+    }
+
+
+
+
+    .avis{
+        display: inline;
+        margin-top: 5px;
+        color: #F2A415;
+        float: right;
+    
+    }
+
+
+}
+
+@media screen and (max-width: 1140px) {
+    .bouton-voir-profil{
+        color: #43CEA2;
+        margin-right: 35px;
+        float: left;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    .partie-gauche-profil{
+        width: 100%;
+    }
+    .partie-droite-profil{
+        width: 100%;
+    }
+    .avis{
+        display: inline;
+        margin-top: 5px;
+        color: #F2A415;
+        float: left;
+    
+    }
+    .Certification{
+        text-align: left;
+    }
+    .voir-profil{
+
+        margin-top: 20px;
+        text-align: right;
+        width: 100%;
+        height: 50px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1073px){
+    .titre{
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .annonces{
+        width: 23%;
+        display: inline-block;
+        margin: 4px;
+        text-align: left;
+        font-size: 12px;
+    }
+    .valider{
+        margin-top: 10px;
+        margin-left: 5px;
+        width: 30px;
+        height: 25px;
+        color: #43CEA2;
+        position: absolute;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+    .left-side{
+        float: none;
+        width: fit-content;
+        height: auto;
+        margin-left: 100px;
+        margin-right: 80px;
+        margin-bottom: 10px;
+    }
+    .right-side{
+        float: none;
+        width: auto;
+        height: auto;
+        margin-right: 80px;
+        margin-left: 100px;
+        margin-top: 50px;
+    }
+    .autres-annonces{
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 30px;
+        width: auto;
+        height: 210px;
+    }
+    .Photo-title{
+        display: block;
+    }
+    .Box-Overflow{
+        width: 100%;
+        height: 230px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        border-radius: 20px;
+    }
+
+
+    .Box-Overflow::-webkit-scrollbar-thumb {
+        background: linear-gradient(130deg, #36a8a0 0%, #34a5a0 100%);
+        color: orange;
+        background-color: linear-gradient(130deg, #36a8a0 0%, #34a5a0 100%);
+        cursor: pointer !important;
+        border-radius: 10px;
+    }
+
+    .Box-Overflow::-webkit-scrollbar {
+        width: 20px;
+    }
+    
+
+    .Box-Overflow::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+    }
+    
+
+
+    .box-autres-annonces{
+        width: 100%;
+    }
+    .annonces{
+        width: 300px;
+        margin: 5px;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .annonces a{
+        color: black;
+    }
+    .annonces img{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
+
+
+@media screen and (max-width: 810px) {
+    .Photo-title{
+        display: block;
+    }
+    .autres-annonces{
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 30px;
+        width: auto;
+        height: 210px;
+    }
+    .Box-Overflow{
+        width: 100%;
+        height: 230px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        border-radius: 20px;
+    }
+
+
+    .Box-Overflow::-webkit-scrollbar-thumb {
+        background: linear-gradient(130deg, #36a8a0 0%, #34a5a0 100%);
+        color: orange;
+        background-color: linear-gradient(130deg, #36a8a0 0%, #34a5a0 100%);
+        cursor: pointer !important;
+        border-radius: 10px;
+    }
+
+    .Box-Overflow::-webkit-scrollbar {
+        width: 20px;
+    }
+    
+
+    .Box-Overflow::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+    }
+   
+
+
+    .box-autres-annonces{
+        width: 100%;
+    }
+    .annonces{
+        width: 300px;
+        margin: 5px;
+        text-align: left;
+        display: inline-block;
+    }
+
+    .annonces a{
+        color: black;
+    }
+    .annonces img{
+        width: 100%;
+        border-radius: 20px;
+    }
+    
+}
+@media screen and (max-width: 730px){
+    .Photo-title{
+        display: block;
+    }
+    .small-images{
+        width: 100%;
+    }
+    .small-images img{
+        width: 50%;
+        height: 200px;
+        margin: 5px;
+        border-radius: 30px;
+    }
+    .slide-small-images{
+        width: 100%;
+        height: 230px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        border-radius: 20px;
+    }
+
+
+    .slide-small-images::-webkit-scrollbar-thumb {
+        background: linear-gradient(130deg, #36a8a0 0%, #34a5a0 100%);
+        color: orange;
+        background-color: linear-gradient(130deg, #36a8a0 0%, #34a5a0 100%);
+        cursor: pointer !important;
+        border-radius: 10px;
+    }
+
+    .slide-small-images::-webkit-scrollbar {
+        width: 20px;
+    }
+    
+
+    .slide-small-images::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        border-radius: 10px;
+    }
+   
+
+
+} 
+
+@media screen and (max-width: 550px){
+    .left-side{
+        float: none;
+        width: fit-content;
+        height: auto;
+        margin-left: 50px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+    }
+    .right-side{
+        float: none;
+        width: auto;
+        height: auto;
+        margin-right: 40px;
+        margin-left: 40px;
+        margin-top: 50px;
+    }
+
+    .RDV{
+        float: right;
+        margin-top: 20px;
+    }
+
+    .big-images img{
+        width: 100%;
+        border-radius: 30px;
+        margin-bottom: 10px;
+        height: 300px;
+    }
+    .autres-annonces{
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 30px;
+        width: auto;
+        height: 210px;
+        margin-bottom: 100px;
+    }
+    
+}
+
+@media screen and (max-width: 450px){
+    .titre{
+        font-size: 25px;
+        font-weight: 500;
+    }
+    .valider{
+        width: 15px;
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .RDV{
+        float: right;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .big-images img{
+        width: 100%;
+        border-radius: 30px;
+        margin-bottom: 10px;
+        height: 200px;
+    }
+    .small-images img{
+        width: 50%;
+        height: 150px;
+        margin: 5px;
+        border-radius: 30px;
+    }
+    .slide-small-images{
+        width: 100%;
+        height: 180px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        border-radius: 20px;
+    }
+}
+@media screen and (max-width: 402px){
+    .RDV{
+        float: left;
+        margin-top: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .bare-info{
+        height: 150px;
+    }
+
+    .critère-parti-droite{
+        float: none;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .critère-parti-gauche{
+        float: none;
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .dessous{
+        margin-bottom: 10px;
+    }
+}
